@@ -1,0 +1,16 @@
+.navbar {
+    background: rgb(6, 235, 109);
+    background: linear-gradient(90deg, rgba(6, 235, 109, 1) 0%, rgba(0, 0, 0, 0.6054796918767507) 52%, rgba(123, 217, 165, 1) 100%);
+    height: 40px;
+    margin: 0;
+    align-content: flex-end;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(17, 58, 39);
+    padding: 15px;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 1.2em;
+}

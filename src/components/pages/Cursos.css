@@ -1,0 +1,16 @@
+.wrapper {
+   
+    
+  padding: 1em;
+}
+
+.tittlewrapper {
+    display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.cardwrapper {
+  flex-wrap: wrap;
+    overflow: hidden;
+}

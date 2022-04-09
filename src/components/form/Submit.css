@@ -1,0 +1,36 @@
+.submitControl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.submitControl label{
+   margin-bottom: .6em;
+   font-weight: bold;
+}
+
+.submitControl input{
+   padding: .7em;
+   border-radius: 0;
+   border: none;
+}
+
+.submitControl input::placeholder{
+   color: #7b7b7b;
+}
+
+.submitControl btn {
+    background: rgb(6,235,109);
+background: linear-gradient(90deg, rgba(6,235,109,1) 0%, rgba(0,0,0,0.6054796918767507) 52%, rgba(123,217,165,1) 100%);padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    display: flex;
+    color: #FFF;
+}
+
+.btn:hover {
+    color: rgb(84, 252, 17);
+}

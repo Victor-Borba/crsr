@@ -1,0 +1,44 @@
+.cursoCard {
+    text-align: center;
+    padding: 1em;
+    border: 3px solid #7a7a7a;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    margin: 0.5%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(170, 228, 137);
+    display: grid;
+    grid-template-rows: 1fr 40px;
+    
+}
+
+.cursoCardBtn {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btncd {
+    text-decoration: none;
+
+}
+
+.altcd {
+   box-sizing: border-box;
+   height: 30px;
+   width: 40px;
+
+}
+
+.linkcd {
+    background: rgb(6, 235, 109);
+    background: linear-gradient(90deg, rgba(6, 235, 109, 1) 0%, rgba(0, 0, 0, 0.6054796918767507) 52%, rgba(123, 217, 165, 1) 100%);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    display: flex;
+    color: #FFF;
+}

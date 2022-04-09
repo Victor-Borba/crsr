@@ -1,0 +1,36 @@
+:root {
+    --header-height: 40px;
+    --footer-height: 40px;
+
+    --shadow:
+        0 2px 23px 0 rgba(0, 0, 0, 0.1),
+        0 2px 49px 0 rgba(0, 0, 0, 0.06);
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%);
+}
+
+:root button{
+    background: rgb(6,235,109);
+background: linear-gradient(90deg, rgba(6,235,109,1) 0%, rgba(0,0,0,0.6054796918767507) 52%, rgba(123,217,165,1) 100%);padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    display: flex;
+    color: #FFF;
+    border-radius: 0px;
+
+    border: none;
+}
+.R2d2 {
+    margin: 0px;
+    display: grid;
+    height: 100vh;
+    grid-template-rows:
+        var(--header-height) 1fr var(--footer-height);
+    
+    background-color: #F5F5F5;
+}
+
+.content {
+    align-items: flex-start;
+}
